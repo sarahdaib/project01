@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>User Registration</title>
+</head>
+
+<body>
+
+    <h1>User Registration</h1>
+
+    <form>
+
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" required minlength="3">
+
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required minlength="8">
+
+        <br><br>
+
+        <label for="role">Choose your role:</label>
+        <select id="role" name="role" required>
+            <option value="">Select a role</option>
+            <option value="student">Student</option>
+            <option value="developer">Developer</option>
+            <option value="designer">Designer</option>
+        </select>
+
+        <br><br>
+
+        <label>Gender:</label>
+
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+
+        <br><br>
+
+        <label for="message">About You:</label>
+        <textarea id="message" name="message" required minlength="10"></textarea>
+
+        <br><br>
+
+        <input type="checkbox" id="agreement" name="agreement" required>
+        <label for="agreement">I agree to the terms and conditions.</label>
+
+        <br><br>
+
+        <button type="submit">Register</button>
+
+    </form>
+
+</body>
+</html>
