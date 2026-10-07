@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Profile</title>
+</head>
+<body>
+
+    <img src="assets/profile.jpxg" alt="My profile photo">
+
+    <a href="https://github.com/sarahdaib" target="_blank" rel="noopener noreferrer">GitHub</a>
+
+    <a href="#contact">Contact</a>
+
+    <h2 id="contact">Contact</h2>
+
+    <a href="mailto:sarahdaib70@gmail.com">Email me</a>
+
+</body>
+</html>
